@@ -1,37 +1,18 @@
-@font-face {
-  font-family: "MuseoSans";
-  src: url("../fonts/MuseoSansRegular.woff")  format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MuseoSans";
-  src: url("../fonts/MuseoSansBold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MuseoSans";
-  src: url("../fonts/MuseoSansBlack.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic');
 
 body {
   margin: 0;
   padding: 0;
 
   color: #494949;
-  font-family: "MuseoSans", "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 20px;
 }
