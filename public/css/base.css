@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/MuseoSansRegular.woff")  format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/MuseoSansBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/MuseoSansBlack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  color: #494949;
+  font-family: "MuseoSans", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media(max-width:1024px) {
+  .container {
+    /* padding: 0 10px; */
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img {
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

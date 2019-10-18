@@ -1,0 +1,29 @@
+* text=auto
+
+# source code
+*.css text
+*.html text
+*.js text eol=lf
+*.svg text
+
+# server config
+.htaccess text
+
+# git config
+.gitattributes text
+.gitignore text
+
+# misc config
+.editorconfig text
+
+# Documentation
+*.md text
+LICENSE text
+
+# binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
